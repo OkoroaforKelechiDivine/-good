@@ -4,9 +4,10 @@ import vid from '../../images/mixkit-woman-looking-at-the-horizon-from-a-buildin
 function HeroSection() {
     return (
         <main>
-            <video className="bgVideo" src={vid} muted={true} autoPlay={true} loop={true} playsInline></video>
+            <video className="bgVideo" src={vid} muted={true} autoPlay={true} loop={true} playsInline></video><br />
             <div className="main-content">
-                <h1 className="hero-text">Building Innovative Ideas <br/> through the power of AI and Softwares</h1>
+                {/*<h1 className="hero-text">Building Innovative Ideas <br/> through the power of AI and Software's</h1>*/}
+                {/*<h1>At WilWa-X we are hel[pin </h1>*/}
             </div>
         </main>
     )
