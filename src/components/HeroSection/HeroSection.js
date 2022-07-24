@@ -6,8 +6,12 @@ function HeroSection() {
         <main>
             <video className="bgVideo" src={vid} muted={true} autoPlay={true} loop={true} playsInline></video><br />
             <div className="main-content">
-                {/*<h1 className="hero-text">Building Innovative Ideas <br/> through the power of AI and Software's</h1>*/}
-                {/*<h1>At WilWa-X we are hel[pin </h1>*/}
+                <h1 className="hero-text">
+                    To be the first private company to send clients
+                    to  the space from their rooms and also to help
+                    the impaired recognize objects, colors etc
+                    through the help of AI before 2032
+                </h1>
             </div>
         </main>
     )
