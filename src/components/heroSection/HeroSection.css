@@ -30,7 +30,16 @@ main .main-content  {
     color: #ffffff;
     text-align: left;
     width:45rem;
-    font-family: 'Ubuntu', SansSerif;
+    font-family: 'Ubuntu', SansSerif, serif;
+}
+
+.hero-text button{
+    background-color: #0e9e48;
+    border-radius: 9px;
+    color: white;
+    height: 5rem;
+    cursor: pointer;
+    width:15rem;
 }
 
 .hero-text span {
