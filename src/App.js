@@ -4,7 +4,7 @@ import HeroSection from "./components/heroSection/HeroSection";
 
 function App() {
   return (
-    <div className={ "App" }>
+    <div className={"App"}>
       <Header />
         <HeroSection />
     </div>

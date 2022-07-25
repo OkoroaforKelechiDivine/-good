@@ -1,7 +1,6 @@
 import React from "react";
 import TypeAnimation from 'react-type-animation'
 import './HeroSection.css'
-import HeroImg from '../../images/pexels-pixabay-373543.jpg'
 import vid from '../../images/mixkit-woman-looking-at-the-horizon-from-a-building-43183-small.mp4'
 
 function HeroSection() {
@@ -22,22 +21,23 @@ function HeroSection() {
                     Providing <span>Affordable AI</span> services.<br></br>
                     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 </h1>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <button><a>Get one product here.</a></button>
-                <div className="AnimatedText">
+                <div className={"AnimatedText"}>
                     <p>
                         <TypeAnimation
                             cursor={true}
                             repeat={Infinity}
-                            sequence={
-                            ['React typing animation based on typical', 2000,
-                                'wilwax', 2000,
-                                'Hello Boy', 2000]}
-                            wrapper="h2"
-                            className="animated-text"
+                            sequence={[
+                                'WilWa-X is a tech-physics private project that will specialize in sending clients to the space from their favourite locations,', 4000,
+                                'It will also be responsible for helping the impaired recognize objects, colours, and their environments', 4000,
+                                'through the help of AI before 2032.', 4000,
+                                ]}
+                            wrapper={"h1"}
+                            className={"animated-text"}
                         />
                     </p>
                 </div>
-
             </div>
         </main>
     )
