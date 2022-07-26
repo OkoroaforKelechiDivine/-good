@@ -18,7 +18,7 @@ function HeroSection() {
             <br />
             <div className={"main-content"}>
                 <h1 className={"hero-text"}>
-                    Providing <span>Affordable AI</span> services.<br></br>
+                    Providing <span>Affordable AI</span> services.<br/>
                     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 </h1>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
