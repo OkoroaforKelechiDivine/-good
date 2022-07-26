@@ -29,9 +29,9 @@ function HeroSection() {
                             cursor={true}
                             repeat={Infinity}
                             sequence={[
-                                'WilWa-X is a tech-physics private project that will specialize in sending clients to the space from their favourite locations,', 4000,
+                                'WilWa-X is a tech-physics private project that will specialize in sending clients on a tour to the space from their favourite locations,', 4000,
                                 'It will also be responsible for helping the impaired recognize objects, colours, and their environments', 4000,
-                                'through the help of AI before 2032.', 4000,
+                                'through the help of AI before 2052.', 4000,
                                 ]}
                             wrapper={"h1"}
                             className={"animated-text"}
@@ -40,6 +40,6 @@ function HeroSection() {
                 </div>
             </div>
         </main>
-    )
+)
 }
 export default HeroSection;
