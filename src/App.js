@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css"
+import About from "./components/About/About";
 
 const App = () => {
     return(
-        <h1>App</h1>
+        <About/>
     )
 }
 
