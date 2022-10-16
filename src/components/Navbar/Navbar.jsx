@@ -10,6 +10,10 @@ const Navbar = () =>{
         setActive("navBar activeNavbar")
     }
 
+    const removeNavBar = () =>{
+        setActive("navBar")
+    }
+
     return(
         <header className={"header"}>
             <div className={"logoDiv"}>
@@ -21,7 +25,7 @@ const Navbar = () =>{
             </div>
 
             <div className={active}>
-                <ul className={"navLists"}>
+                <ul onClick={removeNavBar} className={"navLists"}>
                     <li className={"navItem"}>
                         <a href={"#about"} className={"navLink"}>
                             <span>About</span>
@@ -48,7 +52,7 @@ const Navbar = () =>{
                     </button>
                 </ul>
 
-                <div className={"closeNavBar"}>
+                <div onClick={removeNavBar} className={"closeNavBar"}>
                     <AiFillCloseCircle className={"icon"}/>
                 </div>
             </div>
