@@ -49,7 +49,7 @@ const Home = () =>{
                 <h1 className={"title"}>
                     Okoroafor Kelechi Divine
                 </h1>
-                <span className={"subtitle"}>
+                <span className={"subTitle"}>
                     I am a multi-tasking software engineer from Lagos Nigeria
                 </span>
 
@@ -58,7 +58,7 @@ const Home = () =>{
                 </p>
 
                 <div className={"lowerHomeSection"}>
-                    <button className={"containerBtn"}>
+                    <button className={"contactBtn"}>
                         <a href={"#contact"} className={"flex"}>
                             Get In touch me <TbArrowBigRightLines className={"icon"}/>
                         </a>
@@ -66,7 +66,9 @@ const Home = () =>{
 
                     <div className={"scrollDiv"}>
                         <a href={"#about"} className={"flex"}>
-                            Scroll Down <TbChevronsDown className={"icon"}/>
+                            <h6 className={"scroll"}>
+                                Scroll Down<TbChevronsDown className={"icon"}/>
+                            </h6>
                         </a>
                     </div>
                 </div>
