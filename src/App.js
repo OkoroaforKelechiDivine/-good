@@ -1,25 +1,22 @@
-import "./app.css"
-import About from "./components/About/About";
-import Home from "./components/Home/Home";
-import Navbar from "./components/Navbar/Navbar";
-// import Footer from "./components/Footer/Footer";
-import Skills from "./components/Skills/Skills";
-// import Contact from "./components/Contact/Contact";
-// import Project from "./components/Project/Project";
+import "./App.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Banner from "./components/Banner";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import NavBar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
-const App = () => {
-    return(
-        <>
-            <Navbar/>
-            <Home/>
-            <About/>
-            <Skills/>
-            {/*<Footer/>*/}
-            {/*<Contact/>*/}
-            {/*<Project/>*/}
-        </>
-    )
-
+function App() {
+    return (
+        <div className={"App"}>
+            <NavBar />
+            <Banner />
+            <Skills />
+            <Projects />
+            <Contact />
+            <Footer />
+        </div>
+    );
 }
-
 export default App;
