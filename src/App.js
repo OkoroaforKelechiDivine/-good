@@ -10,9 +10,10 @@ import Project from "./components/Project/Project";
 const App = () => {
     return(
         <>
-            {/*<About/>*/}
-            {/*<Home/>*/}
             <Navbar/>
+            <Home/>
+            {/*<About/>*/}
+
             {/*<Footer/>*/}
             {/*<Skills/>*/}
             {/*<Contact/>*/}

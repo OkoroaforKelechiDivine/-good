@@ -78,7 +78,7 @@ img{
 .btn:before{
     content: "";
     height: 100%;
-    width: 0%;
+    width: 0;
     background: var(--primaryColor);
     position: absolute;
     top: 0;
@@ -176,7 +176,6 @@ img{
     100%{
         left: 100px;
     }
-
 }
 
 body{

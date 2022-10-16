@@ -19,7 +19,7 @@ const Navbar = () =>{
             <div className={"logoDiv"}>
                 <h1 className={"logo"}>
                     <a href={"#home"}>
-                        Kelechi Divine
+                        zipDemon
                     </a>
                 </h1>
             </div>
@@ -63,5 +63,4 @@ const Navbar = () =>{
         </header>
     )
 }
-
 export default Navbar;
