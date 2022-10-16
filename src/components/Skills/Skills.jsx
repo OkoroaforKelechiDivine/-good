@@ -19,26 +19,19 @@ const Skills = () =>{
             <div className={"skillsContainer grid"}>
                 <div className={"skillGroup"}>
                     <div className={"groupTitle"}>
-                        <h2 className={"title"}>Full stack software engineer</h2>
+                        <h2 className={"title"}>Front-end Development</h2>
                         <span className={"subTitle"}>
-                            3 years Experience
+                            1 year Experience
                         </span>
                     </div>
 
                     <div className={"generalSkills"}>
-                        <div className={"singleSkill"}>
-                            <div className={"iconBox flex"}>
-                                <FaJava className={"icon"}/>
-                            </div>
-                            <span className={"skillName"}>Java</span>
-                        </div>
-
-                        <div className={"singleSkill"}>
-                            <div className={"iconBox flex"}>
-                                <SiSpringboot className={"icon"}/>
-                            </div>
-                            <span className={"skillName"}>Spring-boot</span>
-                        </div>
+                        {/*<div className={"singleSkill"}>*/}
+                        {/*    <div className={"iconBox flex"}>*/}
+                        {/*        <FaJava className={"icon"}/>*/}
+                        {/*    </div>*/}
+                        {/*    <span className={"skillName"}>Java</span>*/}
+                        {/*</div>*/}
 
                         <div className={"singleSkill"}>
                             <div className={"iconBox flex"}>
@@ -54,19 +47,19 @@ const Skills = () =>{
                             <span className={"skillName"}>Css framework (Tailwind)</span>
                         </div>
 
-                        <div className={"singleSkill"}>
-                            <div className={"iconBox flex"}>
-                                <SiSqlite className={"icon"}/>
-                            </div>
-                            <span className={"skillName"}>SQL</span>
-                        </div>
+                        {/*<div className={"singleSkill"}>*/}
+                        {/*    <div className={"iconBox flex"}>*/}
+                        {/*        <SiSqlite className={"icon"}/>*/}
+                        {/*    </div>*/}
+                        {/*    <span className={"skillName"}>SQL</span>*/}
+                        {/*</div>*/}
 
-                        <div className={"singleSkill"}>
-                            <div className={"iconBox flex"}>
-                                <DiMongodb className={"icon"}/>
-                            </div>
-                            <span className={"skillName"}>NoSQL</span>
-                        </div>
+                        {/*<div className={"singleSkill"}>*/}
+                        {/*    <div className={"iconBox flex"}>*/}
+                        {/*        <DiMongodb className={"icon"}/>*/}
+                        {/*    </div>*/}
+                        {/*    <span className={"skillName"}>NoSQL</span>*/}
+                        {/*</div>*/}
 
                         <div className={"singleSkill"}>
                             <div className={"iconBox flex"}>
@@ -82,13 +75,45 @@ const Skills = () =>{
                             <span className={"skillName"}>VueJs</span>
                         </div>
 
-                        <div className={"singleSkill"}>
-                            <div className={"iconBox flex"}>
-                                <CgGoogle className={"icon"}/>
-                            </div>
-                            <span className={"skillName"}>Googling</span>
-                        </div>
+                        {/*<div className={"singleSkill"}>*/}
+                        {/*    <div className={"iconBox flex"}>*/}
+                        {/*        <CgGoogle className={"icon"}/>*/}
+                        {/*    </div>*/}
+                        {/*    <span className={"skillName"}>Googling</span>*/}
+                        {/*</div>*/}
 
+                    </div>
+                </div>
+
+                <div className={"skillGroup"}>
+                    <div className={"groupTitle"}>
+                        <h2 className={"title"}>Back-end Development</h2>
+                        <span className={"subTitle"}>
+                            2 year Experience
+                        </span>
+                    </div>
+
+                    <div className={"singleSkill"}>
+                        <div className={"iconBox flex"}>
+                            <SiSpringboot className={"icon"}/>
+                        </div>
+                        <span className={"skillName"}>Spring-boot</span>
+                    </div>
+                </div>
+
+                <div className={"skillGroup"}>
+                    <div className={"groupTitle"}>
+                        <h2 className={"title"}>Database</h2>
+                        <span className={"subTitle"}>
+                            2 year Experience
+                        </span>
+                    </div>
+
+                    <div className={"singleSkill"}>
+                        <div className={"iconBox flex"}>
+                            <SiSpringboot className={"icon"}/>
+                        </div>
+                        <span className={"skillName"}>Spring-boot</span>
                     </div>
                 </div>
             </div>
