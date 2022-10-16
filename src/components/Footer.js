@@ -1,24 +1,39 @@
 import { Container, Row, Col } from "react-bootstrap";
 import MailchimpForm from "./MailchimpForm";
-import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import { Facebook, Github, Linkedin, Medium, Twitter } from "react-bootstrap-icons";
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className={"footer"}>
             <Container>
-                <Row className="align-items-center">
+                <Row className={"align-items-center"}>
                     <MailchimpForm />
                     <Col size={12} sm={6}>
-                        <img src={logo} alt="Logo" />
+                        <h1>zipDemon</h1>
+                        {/*<img src={logo} alt={"Logo"} />*/}
                     </Col>
-                    <Col size={12} sm={6} className="text-center text-sm-end">
-                        <div className="social-icon">
-                            <a href="#"><img src={navIcon1} alt="Icon" /></a>
-                            <a href="#"><img src={navIcon2} alt="Icon" /></a>
-                            <a href="#"><img src={navIcon3} alt="Icon" /></a>
+                    <Col size={12} sm={6} className={"text-center text-sm-end"}>
+                        <div className={"social-icon"}>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                            <a className={"bg-white"} href={"https://github.com/OkoroaforKelechiDivine"} target={"_blank"} rel="noreferrer">
+                                <Github/>
+                            </a>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                            <a className={"bg-white"} href={"https://linkedin.com/in/kelechi-okoroafor"} target={"_blank"} rel="noreferrer">
+                                <Linkedin/>
+                            </a>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                            <a className={"bg-white"} href={"https://www.facebook.com/profile.php?id=100080210275192"} target={"_blank"} rel="noreferrer">
+                                <Facebook/>
+                            </a>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                            <a className={"bg-white"} href={"https://twitter.com/kelechiDivine6"} target={"_blank"} rel="noreferrer">
+                                <Twitter/>
+                            </a>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                            <a className={"bg-white"} href={"https://medium.com/@okoroaforkelechi123"} target={"_blank"} rel="noreferrer">
+                                <Medium/>
+                            </a>
                         </div>
                         <p>Copyright 2022. All Rights Reserved</p>
                     </Col>

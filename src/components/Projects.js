@@ -11,17 +11,17 @@ const Projects = () => {
 
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Youtube clone",
+            description: "https://ytc-2.netlify.app/",
             imgUrl: projImg1,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Shortly Url",
+            description: "https://okoroaforkelechidivine.github.io/smalr/",
             imgUrl: projImg2,
         },
         {
-            title: "Business Startup",
+            title: "We are the world",
             description: "Design & Development",
             imgUrl: projImg3,
         },
