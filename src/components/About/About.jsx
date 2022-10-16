@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.scss"
+import "./about.css"
 import {TbCloudDownload} from "react-icons/tb";
 import cv from "../cv/Okoroafor, Kelechi Divine.pdf"
 import profile from "../img/Okoroafor Kelechi Divine.JPG"
