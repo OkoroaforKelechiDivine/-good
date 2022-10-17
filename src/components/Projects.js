@@ -1,7 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png"
 import projImg2 from "../assets/img/project-img2.png";
+import projImg6 from "../assets/img/project-img6.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -22,23 +25,23 @@ const Projects = () => {
         },
         {
             title: "We are the world",
-            description: "Design & Development",
+            description: "https://wit-w.netlify.app/",
             imgUrl: projImg3,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "DGRs website",
+            description: "https://d-g-r.netlify.app/pages/reb.html",
+            imgUrl: projImg4,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
+            title: "Digital Clock",
+            description: "https://okoroaforkelechidivine.github.io/digitalClock/",
+            imgUrl: projImg5,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
+            title: "Word Count",
+            description: "https://okoroaforkelechidivine.github.io/word-count/",
+            imgUrl: projImg6,
         },
     ];
 
